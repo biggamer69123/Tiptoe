@@ -419,7 +419,7 @@ p{
 /*end education*/
 
 /*navigation*/
-.nav-vid{
+iframe{
   display: block;
   margin: 1em auto;
   width: 100%;
@@ -430,7 +430,8 @@ p{
   justify-content: center;
 }
 .nav-vid-des{
-  font-size: 20px;
+  padding-top: 30px;
+  font-size: 25px;
 }
 /*end navigation*/
 
