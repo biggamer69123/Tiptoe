@@ -1,0 +1,597 @@
+/*body and fonts*/
+body{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: #dbc6b6;
+  overflow-x: hidden;
+}
+p{
+	font-family: "Kanit", sans-serif;
+ 	font-weight: 400;
+ 	font-style: normal;
+}
+/*end body and fonts*/
+
+/*Index*/
+.AI_Learn-more{
+	padding-left: 100px;
+	padding-bottom: px;
+}
+.card-img-top{
+	width: 238px;
+	height: 200px;
+}
+.btns{
+	/*padding-bottom: 300px;*/
+}
+.vid-banner{
+  display: block;
+  margin: 1em auto;
+  width: 100%;
+  height: calc(.5625 * 75vw);
+}
+.icon{
+	width: 264px;
+	height: 300px;
+}
+.Cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c_container a{
+  text-decoration: none;
+}
+.c_container{
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ctitle{
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  padding-bottom: 30px;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ctitle1{
+  color: black;
+  font-size: 23px;
+}
+.c_container .mycard{
+  position: relative;
+  height: 250px;
+  max-width: 350px;
+  background: wheat;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 3px 50px rgba(0,0,0,0.5);
+  transition: 0.4s ease-in-out;
+}
+
+.c_container .mycard:hover{
+  height: 400px;
+}
+
+
+.c_container .mycard .cimg{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  top: -20px;
+  left: 65px;
+  z-index: 1;
+  box-shadow: 0 3px 50px rgba(0,0,0,0.5);
+}
+
+
+.c_container .mycard .cimg img{
+  max-width: 100%;
+  height: 100%;
+}
+
+.c_container .mycard .cimg1 img{
+  max-width: 100%;
+  height: 100%;
+}
+
+.c_container .mycard .ctitle{
+  
+}
+
+.c_container .mycard .cdetail{
+  position: relative;
+  padding-top: 25px;
+  text-align: center;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.c_container .mycard:hover .cdetail{
+  visibility: visible;
+  opacity: 1;
+}
+.highlight{
+  font-size: 20px;
+}
+.daily{
+  font-size: 25px;
+  text-decoration: underline;
+}
+.my_border{
+  border: 1px solid white;
+}
+
+.whatwedo{
+}
+.Spacing_whatwedo{
+  padding-left: 130px;
+  padding-bottom: 50px;
+}
+.Spacing_whatwedo p{
+  font-size: 20px;
+  text-align: center;
+}
+.What_we_do{
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+}
+/*end index*/
+
+/*about us*/
+.B-Title{
+  font-size: 75px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+}
+.left{
+  padding-left: 100px;
+}
+.right{
+  padding-right: 100px;
+}
+.abt_us{
+  display: inline-block;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+.Banner{
+    position: relative;
+    background: url(../Image/banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 80vh;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+.team .member{
+  position: relative;
+  padding: 30px;
+  box-shading: 0px 2px 15px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  background: white;
+}
+.team .member .teampic{
+  overflow: hidden;
+  width: 180px;
+  border-raidus: 50%;
+}
+.team .member .member-info{
+  padding-left: 30px;
+}
+.team .member h4{
+  font-weight: 700;p
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: red;
+}
+.team .member span{
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+.team .member span::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: black;
+  bottom: 0;
+  left: 0;
+}
+.team .member p{
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+.team .member .social{
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.team .member .social a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: white;
+  text-decoration: none;
+}
+.team .member .social a:hover{
+  transform: translate(0, -10px);
+  border: 2px solid #0A58CA;
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+}
+.impact_h1{
+  padding-left: 200px;
+}
+.impact_p{
+  padding-top: 100px;
+  font-size: 25px;
+}
+.Impact{
+  padding-top: 0px;
+}
+.Impact_img{
+  height: auto;
+  width: 500px;
+}
+.aim_text{
+  font-size: 25px;
+}
+.vision_text{
+  font-size: 25px;
+}
+/*end about us*/
+
+/*communication*/
+.communication-des{
+  font-size: 18px;
+}
+.communication-title{
+  font-size: 22px;
+}
+.com_padding{
+  padding-left: 40px;
+}
+.middle{
+  /*position: absolute;*/
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.BIG_BTN{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background: #f1f1f1;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+}
+.BIG_BTN i{
+  line-height: 90px;
+  font-size: 26px;
+  transform: 0.2s linear;
+}
+.BIG_BTN:hover i{
+  transform: scale(1.3);
+  color: red;
+}
+.BIG_BTN::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #3498db;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+@keyframes aaa {
+  0%{
+    left: -110%;
+    top: 90%;
+  }
+  50%{
+    left: 10%;
+    top: -30%;
+  }
+  100%{
+    top: -10%;
+    left: -10%;
+  }
+}
+.Discord:hover::before{
+  background-color: #424549;
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+.Messenger:hover::before{
+  background-color: lightblue;
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+.Twitter:hover::before{
+  background-color: grey;
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+.Instagram:hover::before{
+  background-color: #ffdf9e;
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+.Telegram:hover::before{
+  background-color: white;
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+.communication_des{
+  font-size: 25px;
+}
+/*end communication*/
+
+/*information*/
+.info_Banner{
+    position: relative;
+    background: url(../Image/banner.gif) no-repeat center;
+    background-size: cover;
+    height: 90vh;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+.info_title{
+  font-size: 75px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+}
+/*end information*/
+
+/*education*/
+.Card_image{
+  object-fit: cover;
+  width
+}
+.educations{
+  display: flex;
+  justify-content: center;
+}
+/*.edu_app{
+  height: 250px;
+}
+.edu_app:hover{
+  height: 400px;
+}
+.edu_app p{
+  visibility: hidden;
+  font-size: 15px;
+}
+.edu_app:hover p{
+  visibility: visible;
+}
+.suchas{
+  font-size: 40px;
+}
+.online_des{
+  font-size: 20px;
+}
+.purpose-des{
+  font-size: 19px;
+}*/
+/*end education*/
+
+/*navigation*/
+.nav-vid{
+  display: block;
+  margin: 1em auto;
+  width: 100%;
+  height: calc(.5625 * 50vw);
+}
+.usage{
+  display: flex;
+  justify-content: center;
+}
+.nav-vid-des{
+  font-size: 20px;
+}
+/*end navigation*/
+
+/*aritifcial intelligence*/
+.spiderman{
+  width: 500px;
+  height: 300px;
+}
+.Padding_left{
+  padding-left: 200px;
+}
+.Zaya_Deepfake{
+  background: blue;
+}
+.card-img-top{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.AI_Img{
+  width: 300px;
+  height: 300px;
+}
+.AI_Img2{
+  display: block;
+  margin: auto;
+  width: 545px;
+  height: 350px;
+}
+.Deepfake{
+  position: relative;
+  border: 1px solid white;
+}
+.Deepfake img:hover{
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+.Deepfake h2{
+  visibility: hidden;
+}
+.Deepfake:hover h2{
+  visibility: visible;
+}
+.Deepfake h2{ 
+  color: white;
+  /*border: 1px solid white;*/
+  /*border-radius: 20px;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner{
+  background-image: url(../Image/ai.jpg);
+  height: 90vh;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  /*background-attachment: fixed;*/
+}
+.Banner_description{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 3px solid white;
+  border-radius: 30px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+}
+.AI_Left{
+  padding-left: 30px;
+}
+.AI_Right{
+  padding-right: 30px;
+}
+.carousel{
+    /*height: 100vh;*/
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+.Padding_left{
+  padding-left: 200px;
+}
+.card-img-top{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.AI_Card{
+  /*padding-top: 25px;*/
+  /*padding-bottom: 25px;*/
+  height: 63vh;
+  background: ;
+  opacity: 1;
+}
+.AI_Card p{
+  visibility: hidden;
+}
+.AI_Card:hover{
+  height: 75vh;
+  transition: 1s ease-in-out;
+}
+.AI_C_Pic{
+  height: 350px;
+  width: 350px;
+}
+.AI_C_Pic1{
+  height: 350px;
+  padding-right: 100px;
+  width: 600px;
+}
+.cards_4{
+  display: flex;
+  justify-content: center;
+}
+.cards_4 a{
+  text-decoration: none;
+    color: black;
+}
+.Chatgpt_title{
+  padding-left: 100px;
+}
+.AI_Card:hover p{
+  visibility: visible;
+}
+.AI_Card:hover img{
+  /*filter: blur(8px);*/
+  /*-webkit-filter: blur(8px);*/
+}
+.AI_Btn{
+  position: absolute;
+}
+.Button_spacing{
+  padding-bottom: 500px;
+}
+.ironman{
+  height: auto;
+  width: 500px;
+}
+.turtorial{
+  display: flex;
+  justify-content: center;
+}
+/*end aritifcial intelligence*/
+
+/*start turtorial*/
+.video-cover{
+  width: 400px;
+  height: 250px;
+}
+.video_right{
+  padding-left: 220px;
+}
+.video_left{
+
+}
+.video_des{
+  font-size: 25px;
+}
+/*end turtorial
